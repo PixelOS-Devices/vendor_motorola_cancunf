@@ -204,7 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cancunf/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/motorola/cancunf/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/motorola/cancunf/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
-    vendor/motorola/cancunf/proprietary/vendor/etc/gbe.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gbe.cfg \
     vendor/motorola/cancunf/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/motorola/cancunf/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
     vendor/motorola/cancunf/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
@@ -259,13 +258,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
-    vendor/motorola/cancunf/proprietary/vendor/etc/init/fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fpsgo.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
-    vendor/motorola/cancunf/proprietary/vendor/etc/init/gbe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gbe.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/hw/init.mmi.backup.trustlet.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mmi.backup.trustlet.rc \
-    vendor/motorola/cancunf/proprietary/vendor/etc/init/init.alpslegacy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.alpslegacy.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/init.bip_ap.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip_ap.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
@@ -298,7 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/vendor.mmi.carrier.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mmi.carrier.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/vendor.mmi.cxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mmi.cxp.rc \
-    vendor/motorola/cancunf/proprietary/vendor/etc/init/vendor.trustonic.alps.alps_device@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.alps.alps_device@1.1-service.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/vendor.trustonic.tee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.1-service.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
@@ -315,13 +310,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cancunf/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/motorola/cancunf/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
     vendor/motorola/cancunf/proprietary/vendor/etc/mot_spn_table:$(TARGET_COPY_OUT_VENDOR)/etc/mot_spn_table \
-    vendor/motorola/cancunf/proprietary/vendor/etc/motorola/12m/Factory_SW_Logo.jpg:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/Factory_SW_Logo.jpg \
-    vendor/motorola/cancunf/proprietary/vendor/etc/motorola/12m/TM655_driver_Command.ini:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/TM655_driver_Command.ini \
-    vendor/motorola/cancunf/proprietary/vendor/etc/motorola/12m/fac_test_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/fac_test_config.xml \
-    vendor/motorola/cancunf/proprietary/vendor/etc/motorola/12m/focaltech-csot-primary-cancunf.ini:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/focaltech-csot-primary-cancunf.ini \
-    vendor/motorola/cancunf/proprietary/vendor/etc/motorola/12m/focaltech-csot_ft8725-primary-cancunf.ini:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/focaltech-csot_ft8725-primary-cancunf.ini \
-    vendor/motorola/cancunf/proprietary/vendor/etc/motorola/12m/focaltech-csot_ft8726-primary-cancunf.ini:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/focaltech-csot_ft8726-primary-cancunf.ini \
-    vendor/motorola/cancunf/proprietary/vendor/etc/motorola/12m/key_code_map.txt:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/key_code_map.txt \
     vendor/motorola/cancunf/proprietary/vendor/etc/motorola/sensors/mot_sensor_settings.json:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/sensors/mot_sensor_settings.json \
     vendor/motorola/cancunf/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/motorola/cancunf/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
@@ -372,7 +360,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cancunf/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/motorola/cancunf/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/motorola/cancunf/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
-    vendor/motorola/cancunf/proprietary/vendor/etc/xgf.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/xgf.cfg \
     vendor/motorola/cancunf/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/motorola/cancunf/proprietary/vendor/firmware/ILITEK_FW:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW \
     vendor/motorola/cancunf/proprietary/recovery/root/vendor/firmware/ILITEK_FW:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ILITEK_FW \
@@ -434,8 +421,6 @@ PRODUCT_PACKAGES += \
     AVCSecureVdecCA \
     HEVCSecureVdecCA \
     VP9SecureVdecCA \
-    com.fingerprints.extension@1.0 \
-    com.motorola.hardware.biometric.fingerprint@1.0 \
     libGLES_meow \
     libMEOW_data \
     libMEOW_gift \
@@ -447,16 +432,9 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl-mediatek \
     android.hardware.audio@7.0-impl-mediatek \
     android.hardware.bluetooth@1.1-impl-mediatek \
-    android.hardware.thermal@2.0-impl \
     audio.primary.mediatek \
     audio.r_submix.mediatek \
     displaypanel.default \
-    fingerprint.goodix.default \
-    fpsensor_fingerprint.default \
-    gps.default \
-    kmsetkey.trustonic \
-    libMcGatekeeper \
-    libSoftGatekeeper \
     motorola.hardware.camera.imgtuner@2.0-impl \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
     gralloc.rogue \
@@ -465,9 +443,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.15-impl \
     vulkan.mtk \
     sound_trigger.primary.default \
-    thermal_hal \
     vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
-    vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
     vendor.mediatek.hardware.mms@1.6-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
@@ -1135,7 +1111,6 @@ PRODUCT_PACKAGES += \
     libDefaultFpsActor \
     libFrameRecord \
     libJpgEncPipe \
-    libMcClient \
     libMtkAinrEnh \
     libMtkOmxCore \
     libMtkSpeechEnh \
@@ -1143,7 +1118,6 @@ PRODUCT_PACKAGES += \
     libNoFpsActor \
     libOpenCL \
     libSQLiteModule_VER_ALL \
-    libTEECommon \
     lib_ainr_enh \
     lib_iir \
     libaal_key \
@@ -1200,29 +1174,19 @@ PRODUCT_PACKAGES += \
     libcustom_nvram \
     libcvsd_mtk \
     libdapparamstorage \
-    libdecrypt \
     libdlbpreg \
     libdre \
     libdynamiclog \
-    libfgauge_gm30 \
     libfile_op \
     libformatter \
-    libfp_ext_svc2 \
-    libfpc.sensortest.hal \
     libged \
-    libgf_ca \
-    libgf_hal \
-    libgoodixhwfingerprint \
     libgpu_aux \
     libgpud \
     libgralloc_extra \
     libgralloc_metadata \
     libgralloctypes_mtk \
-    libgz_gp_client \
-    libgz_uree \
     libhdrvideo \
     libhevce_sb.ca7.android \
-    libhwm \
     libicd_decoder \
     libimgsensorca \
     libion_mtk \
@@ -1273,37 +1237,24 @@ PRODUCT_PACKAGES += \
     libnvram \
     libnvram_sec \
     liboem_specific \
-    liboemcrypto \
     libpixelflinger \
-    libpn557_fw \
-    libpn560_fw \
     libportrait_repair_ppl3_ocl \
     libpqframework \
     librgbwlightsensor \
-    librpc \
     librt_extamp_intf \
     libscltm \
     libsimlock \
     libsimmelock \
-    libsn100u_fw \
-    libsn220u_fw \
     libspeech_enh_lib \
     libspeechparser_vendor \
     libstagefrighthw \
     libstorage_otp \
     libsysenv \
     libtflite_mtk \
-    libthha \
-    libtlcWidevineModularDrm \
     libudf \
-    liburee_meta_drmkeyinstall \
     libvcodec_oal \
     libvcodecdrv_header_stub \
-    libviagpsrpc \
     libvpu5 \
-    libwvhidl \
-    libmockdrmcryptoplugin \
-    libwvdrmengine \
     meta_wifi_data \
     motorola.hardware.camera.imgtuner@1.0 \
     motorola.hardware.camera.imgtuner@2.0 \
@@ -1345,7 +1296,6 @@ PRODUCT_PACKAGES += \
     libcameracustom \
     libdpframework \
     libgpudataproducer \
-    libmemtrack_GL \
     libmpvr \
     libmtk_drvb \
     libmtkcam.atmseventmgr \
@@ -1397,15 +1347,11 @@ PRODUCT_PACKAGES += \
     mot_cancunf_sc202_mipi_raw_tuning \
     mtk000_mipi_raw_IdxMgr \
     mtk000_mipi_raw_tuning \
-    nfc_nci_sec \
-    sensors.moto \
     libdlbvol \
     libmsstwrapper \
     libswdap \
     libswgamedap \
     vendor.dolby.hardware.dms@2.0 \
-    vendor.fpsensor.hardware.fpsensorhidlsvc@2.0 \
-    vendor.goodix.hardware.biometrics.fingerprint@3.0 \
     vendor.mediatek.hardware.apuware.utils@2.0 \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.audio@7.1 \
@@ -1414,8 +1360,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
-    vendor.mediatek.hardware.keymaster_attestation@1.0 \
-    vendor.mediatek.hardware.keymaster_attestation@1.1 \
     vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mmagent@1.1 \
     vendor.mediatek.hardware.mms@1.0 \
@@ -1448,13 +1392,11 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
     libHEVCdec_sa.ca7.android \
-    libMcRegistry \
     libMtkOmxAdpcmDec \
     libMtkOmxAlacDec \
     libMtkOmxApeDec \
     libMtkOmxGsmDec \
     libMtkOmxMp3Dec \
-    libTBaseProvisioning \
     libadpcmdec_mtk \
     libh264dec_customize \
     libh264dec_sa.ca7 \
@@ -1485,16 +1427,27 @@ PRODUCT_PACKAGES += \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \
+    com.fingerprints.extension@1.0 \
+    com.motorola.hardware.biometric.fingerprint@1.0 \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.sensors@2.X-subhal-mediatek \
+    android.hardware.thermal@2.0-impl \
+    fingerprint.goodix.default \
+    fpsensor_fingerprint.default \
+    gps.default \
     hwcomposer.mtk_common \
+    kmsetkey.trustonic \
+    libMcGatekeeper \
+    libSoftGatekeeper \
     android.hardware.camera.provider@2.6-impl-mediatek \
     vendor.mediatek.hardware.camera.ccap@1.0-impl \
     vendor.mediatek.hardware.camera.isphal@1.0-impl \
     vendor.mediatek.hardware.camera.isphal@1.1-impl \
     vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
     sensors.mediatek.V2.0 \
+    thermal_hal \
+    vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
     jcos_client \
     lbs_hidl_service-impl \
     lib3a.ae.pipe \
@@ -1502,8 +1455,9 @@ PRODUCT_PACKAGES += \
     libBSTSWAD \
     libBSTbase_share \
     libBasicModule \
+    libMcClient \
+    libTEECommon \
     libVkLayer_mtk_rt_sdk \
-    libalps \
     libalsautils-v31 \
     libarcsoft_hdr_detection \
     libarcsoft_high_dynamic_range_v2 \
@@ -1533,16 +1487,26 @@ PRODUCT_PACKAGES += \
     libcodec2_store_dolby \
     libcomposer_ext \
     libdeccfg \
+    libdecrypt \
     libdlbdsservice \
     libfeaturepolicy \
     libfft_vendor \
+    libfgauge_gm30 \
     libforkexecwrap \
+    libfp_ext_svc2 \
+    libfpc.sensortest.hal \
+    libgf_ca \
+    libgf_hal \
+    libgoodixhwfingerprint \
     libgwsd-ril \
     libgwsdv2-ril \
     libgwsdv3-ril \
+    libgz_gp_client \
+    libgz_uree \
     libheichal \
     libhfmanager \
     libhfmanagerwrapper \
+    libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
     libkmsetkey \
@@ -1568,20 +1532,33 @@ PRODUCT_PACKAGES += \
     libmtkutils \
     libneuron_platform \
     libnpagent_server \
+    liboemcrypto \
+    libpn557_fw \
+    libpn560_fw \
     libratconfig \
     librilfusion \
+    librpc \
     librsumodem \
+    libsn100u_fw \
+    libsn220u_fw \
     libstfactory-vendor \
+    libthha \
+    libtlcWidevineModularDrm \
     libtrm \
     libundistort_impl \
+    liburee_meta_drmkeyinstall \
     libvia-ril \
+    libviagpsrpc \
     libviamipc-ril \
     libvpu \
     libwifi-hal-mtk \
     libwifitest \
     libwpfa \
+    libwvhidl \
     ls_client \
     ls_nq_client \
+    libmockdrmcryptoplugin \
+    libwvdrmengine \
     motrilutils \
     lib3a.ae.stat \
     lib3a.af.assist \
@@ -1679,6 +1656,7 @@ PRODUCT_PACKAGES += \
     libimageio_plat_drv \
     libimageio_plat_pipe \
     liblpcnr \
+    libmemtrack_GL \
     libmfllcore \
     libmnl \
     libmsnr \
@@ -1740,8 +1718,12 @@ PRODUCT_PACKAGES += \
     libstereoinfoaccessor_vsdof \
     libvainr_model \
     libmtkcam_streaminfo_plugin-p1stt \
+    nfc_nci_sec \
     se_extn_client \
+    sensors.moto \
     vendor.dolby.hardware.dms@2.0-impl \
+    vendor.fpsensor.hardware.fpsensorhidlsvc@2.0 \
+    vendor.goodix.hardware.biometrics.fingerprint@3.0 \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
     vendor.mediatek.hardware.apuware.hmp@1.0 \
@@ -1755,6 +1737,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.security@1.0 \
     vendor.mediatek.hardware.clientapi@1.0 \
     vendor.mediatek.hardware.composer_ext@1.0 \
+    vendor.mediatek.hardware.keymaster_attestation@1.0 \
+    vendor.mediatek.hardware.keymaster_attestation@1.1 \
     vendor.mediatek.hardware.lbs@1.0 \
     vendor.mediatek.hardware.mtkradioex@2.0 \
     vendor.mediatek.hardware.mtkradioex@3.0 \
@@ -1762,8 +1746,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.power@2.0 \
     vendor.mediatek.hardware.radio_op@3.0 \
     vendor.mediatek.hardware.videotelephony@1.0 \
-    vendor.trustonic.alps.alps_device@1.0 \
-    vendor.trustonic.alps.alps_device@1.1 \
     vendor.trustonic.tee.tui@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
@@ -1827,12 +1809,9 @@ PRODUCT_PACKAGES += \
     ccci_rpcd \
     chipinfo \
     conninfra_loader \
-    factory \
     fpc_tee_test \
-    fpsgo \
     fuelgauged \
     fuelgauged_nvram \
-    gbe \
     gsm0710muxd \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
     android.hardware.biometrics.fingerprint@2.1-service-chipone \
@@ -1863,7 +1842,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.6-service \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.pq@2.2-service \
-    vendor.trustonic.alps.alps_device@1.1-service \
     vendor.trustonic.tee@1.1-service \
     vtservice_hidl \
     ipsec_mon \
@@ -1884,7 +1862,6 @@ PRODUCT_PACKAGES += \
     pnscr \
     pnscr_cal \
     rcs_volte_stack \
-    rsudaemon_proxy \
     rt5512_calibration \
     sec_nfc_test \
     sns_mot_client \
@@ -1912,9 +1889,6 @@ PRODUCT_PACKAGES += \
     libGLESv2_mtk_libGLESv2_mtk_symlink32 \
     audio.primary.mediatek_audio.primary.mt6855_symlink32 \
     audio.r_submix.mediatek_audio.r_submix.mt6855_symlink32 \
-    kmsetkey.trustonic_kmsetkey.default_symlink32 \
-    libMcGatekeeper_gatekeeper.trustonic_symlink32 \
-    libSoftGatekeeper_gatekeeper.default_symlink32 \
     android.hardware.graphics.mapper@4.0-impl-mediatek_android.hardware.graphics.mapper@4.0-impl-mediatek_symlink32 \
     gralloc.rogue_gralloc.rogue_symlink32 \
     vendor.mediatek.hardware.camera.atms@1.0-impl_vendor.mediatek.hardware.camera.atms@1.0-impl_symlink32 \
@@ -1959,7 +1933,6 @@ PRODUCT_PACKAGES += \
     libcameracustom_libcameracustom_symlink32 \
     libdpframework_libdpframework_symlink32 \
     libgpudataproducer_libgpudataproducer_symlink32 \
-    libmemtrack_GL_libmemtrack_GL_symlink32 \
     libmpvr_libmpvr_symlink32 \
     libmtk_drvb_libmtk_drvb_symlink32 \
     libmtkcam.atmseventmgr_libmtkcam.atmseventmgr_symlink32 \
