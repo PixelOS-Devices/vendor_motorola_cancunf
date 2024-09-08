@@ -1777,25 +1777,25 @@ PRODUCT_PACKAGES += \
     moto-telephony \
     com.fingerprints.extension \
     com.android.hotwordenrollment.common.util \
-    dax-default \
-    media_codecs_dolby_audio \
-    gnss-mtk-default \
-    gnss-mtk@2.1-service \
-    lbs_hidl_service@1.0 \
-    manifest_IMoto_Fingerprint \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_android.hardware.neuralnetworks-shim-service-mtk \
-    manifest_android.hardware.security.keymint-service.trustonic \
-    manifest_android.hardware.security.secureclock-service.trustonic \
-    manifest_android.hardware.security.sharedsecret-service.trustonic \
-    manifest_apuware_apusys \
-    manifest_apuware_hmp \
-    manifest_apuware_utils \
-    manifest_cameraprovider \
-    manifest_hwcomposer \
-    manifest_media_c2_V1_2_default \
-    manifest_vendor.dolby.hardware.dms \
-    memtrack-mediatek \
+    dax-default.xml \
+    media_codecs_dolby_audio.xml \
+    android.hardware.neuralnetworks-shim-service-mtk.xml \
+    android.hardware.security.keymint-service.trustonic.xml \
+    android.hardware.security.secureclock-service.trustonic.xml \
+    android.hardware.security.sharedsecret-service.trustonic.xml \
+    gnss-mtk-default.xml \
+    gnss-mtk@2.1-service.xml \
+    lbs_hidl_service@1.0.xml \
+    manifest_IMoto_Fingerprint.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_apuware_apusys.xml \
+    manifest_apuware_hmp.xml \
+    manifest_apuware_utils.xml \
+    manifest_cameraprovider.xml \
+    manifest_hwcomposer.xml \
+    manifest_media_c2_V1_2_default.xml \
+    memtrack-mediatek.xml \
+    vendor.dolby.hardware.dms.xml \
     SN1X0__RF-On.txt \
     TBaseDeviceBinding \
     atcid \

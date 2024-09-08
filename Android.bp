@@ -26236,7 +26236,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "dax-default",
+	name: "dax-default.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/dolby/dax-default.xml",
 	filename_from_src: true,
@@ -26245,7 +26245,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "media_codecs_dolby_audio",
+	name: "media_codecs_dolby_audio.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/media_codecs_dolby_audio.xml",
 	filename_from_src: true,
@@ -26253,7 +26253,43 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss-mtk-default",
+	name: "android.hardware.neuralnetworks-shim-service-mtk.xml",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.security.keymint-service.trustonic.xml",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.trustonic.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.security.secureclock-service.trustonic.xml",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.trustonic.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.security.sharedsecret-service.trustonic.xml",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustonic.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "gnss-mtk-default.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss-mtk-default.xml",
 	filename_from_src: true,
@@ -26262,7 +26298,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss-mtk@2.1-service",
+	name: "gnss-mtk@2.1-service.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss-mtk@2.1-service.xml",
 	filename_from_src: true,
@@ -26271,7 +26307,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "lbs_hidl_service@1.0",
+	name: "lbs_hidl_service@1.0.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
 	filename_from_src: true,
@@ -26280,7 +26316,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_IMoto_Fingerprint",
+	name: "manifest_IMoto_Fingerprint.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_IMoto_Fingerprint.xml",
 	filename_from_src: true,
@@ -26289,7 +26325,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.widevine",
+	name: "manifest_android.hardware.drm@1.4-service.widevine.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
 	filename_from_src: true,
@@ -26298,43 +26334,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.neuralnetworks-shim-service-mtk",
-	owner: "motorola",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.neuralnetworks-shim-service-mtk.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_android.hardware.security.keymint-service.trustonic",
-	owner: "motorola",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.security.keymint-service.trustonic.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_android.hardware.security.secureclock-service.trustonic",
-	owner: "motorola",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.security.secureclock-service.trustonic.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_android.hardware.security.sharedsecret-service.trustonic",
-	owner: "motorola",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.security.sharedsecret-service.trustonic.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_apuware_apusys",
+	name: "manifest_apuware_apusys.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_apuware_apusys.xml",
 	filename_from_src: true,
@@ -26343,7 +26343,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_apuware_hmp",
+	name: "manifest_apuware_hmp.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_apuware_hmp.xml",
 	filename_from_src: true,
@@ -26352,7 +26352,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_apuware_utils",
+	name: "manifest_apuware_utils.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_apuware_utils.xml",
 	filename_from_src: true,
@@ -26361,7 +26361,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_cameraprovider",
+	name: "manifest_cameraprovider.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_cameraprovider.xml",
 	filename_from_src: true,
@@ -26370,7 +26370,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_hwcomposer",
+	name: "manifest_hwcomposer.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml",
 	filename_from_src: true,
@@ -26379,7 +26379,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_media_c2_V1_2_default",
+	name: "manifest_media_c2_V1_2_default.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml",
 	filename_from_src: true,
@@ -26388,18 +26388,18 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_vendor.dolby.hardware.dms",
+	name: "memtrack-mediatek.xml",
 	owner: "motorola",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
 
 prebuilt_etc_xml {
-	name: "memtrack-mediatek",
+	name: "vendor.dolby.hardware.dms.xml",
 	owner: "motorola",
-	src: "proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
