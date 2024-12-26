@@ -28181,23 +28181,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "netdc",
-	owner: "motorola",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/netdc"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libhidlbase", "vendor.mediatek.hardware.netdagent@1.0", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "nvram_daemon",
 	owner: "motorola",
 	target: {
@@ -28331,40 +28314,6 @@ cc_prebuilt_binary {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/stp_dump3"],
 			shared_libs: ["libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "thermal_core",
-	owner: "motorola",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/thermal_core"],
-			shared_libs: ["libcutils", "libutils", "liblog", "libifcutils_mtk", "libmipc", "libmtkproperty", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "thermal_intf",
-	owner: "motorola",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/thermal_intf"],
-			shared_libs: ["libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

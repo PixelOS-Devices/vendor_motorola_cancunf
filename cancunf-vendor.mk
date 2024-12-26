@@ -257,7 +257,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/init.chipone_ident.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.chipone_ident.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/init.gf_ident.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gf_ident.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/init.nfc.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.sec.rc \
-    vendor/motorola/cancunf/proprietary/vendor/etc/init/init.thermal_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_core.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
     vendor/motorola/cancunf/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
@@ -321,28 +320,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cancunf/proprietary/vendor/etc/sn100u_pnx_ese_cplc.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_cplc.pnscr \
     vendor/motorola/cancunf/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
     vendor/motorola/cancunf/proprietary/vendor/etc/tetras/portrait_repair_composite.model:$(TARGET_COPY_OUT_VENDOR)/etc/tetras/portrait_repair_composite.model \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/disable_skin_control.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_skin_control.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/disable_thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/disable_thermal_temp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal_temp.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/disable_throttling.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_throttling.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_kpoc.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_kpoc.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_02.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_03.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_04.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_05.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_07.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_08.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_09.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_09.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_10.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_12.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_12.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_13.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_13.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_14.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_14.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_15.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_15.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_16.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_16.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_17.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_17.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_18.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_18.conf \
-    vendor/motorola/cancunf/proprietary/vendor/etc/thermal/thermal_policy_19.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_19.conf \
     vendor/motorola/cancunf/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
     vendor/motorola/cancunf/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/cancunf/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
@@ -1842,7 +1819,6 @@ PRODUCT_PACKAGES += \
     mtk_agpsd \
     muxreport \
     netdagent \
-    netdc \
     nvram_daemon \
     pnscr \
     pnscr_cal \
@@ -1852,8 +1828,6 @@ PRODUCT_PACKAGES += \
     sec_nfc_test \
     sns_mot_client \
     stp_dump3 \
-    thermal_core \
-    thermal_intf \
     vendor.mmi.cxp \
     volte_clientapi_ua \
     volte_rcs_ua \
