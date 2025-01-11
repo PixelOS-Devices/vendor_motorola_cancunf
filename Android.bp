@@ -50157,14 +50157,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "chipinfo",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/chipinfo",
-    filename: "chipinfo",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "conninfra_loader",
     owner: "motorola",
@@ -51058,7 +51050,7 @@ cc_prebuilt_binary {
                 "libbase",
                 "liblog",
                 "libcodec2",
-                "libutils",
+                "libutils-v32",
                 "android.hardware.media.c2@1.0",
                 "android.hardware.media.c2@1.1",
                 "android.hardware.media.c2@1.2",
